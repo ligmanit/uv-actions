@@ -10,8 +10,8 @@ jobs:
       # Runs the specified commands commands to get Ultraviolet-Node running.
       - name: run ultraviolet
         run: |
-          git clone https://github.com/hackdeezhacks/nebula
-          cd nebula
+          git clone git clone https://github.com/titaniumnetwork-dev/Ultraviolet-Node --recursive
+          cd Ultraviolet-Node
           npm install
           screen -dm npm start
       - name: tunnel and expose to web
