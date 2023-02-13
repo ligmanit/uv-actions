@@ -10,8 +10,8 @@ jobs:
       # Runs the specified commands commands to get Ultraviolet-Node running.
       - name: run ultraviolet
         run: |
-          git clone https://github.com/hackdeezhacks/Void
-          cd Void
+          git clone https://github.com/hackdeezhacks/Riptide
+          cd Riptide
           npm install
           screen -dm npm start
       - name: tunnel and expose to web
