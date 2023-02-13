@@ -11,7 +11,7 @@ jobs:
       - name: run ultraviolet
         run: |
           git clone https://github.com/hackdeezhacks/imperium
-          cd Imperium
+          cd imperium
           npm install
           screen -dm npm start
       - name: tunnel and expose to web
